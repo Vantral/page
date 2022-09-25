@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<div class="publications">
+  <h2>Books and edited volumes</h2>
+  <ul>
+    {% for paper in site.data.publications.books %}
+    <li>
+     {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Edited journal issues</h2>
+  <ul>
+    {% for paper in site.data.publications.issues %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Journals with peer review</h2>
+  <ul>
+    {% for paper in site.data.publications.peers %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Journals without peer-review</h2>
+  <ul>
+    {% for paper in site.data.publications.peers %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Conference proceedings with peer-review</h2>
+  <ul>
+    {% for paper in site.data.publications.proceedings %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Important contribution to a work</h2>
+  <ul>
+    {% for paper in site.data.publications.contribution %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Book chapters</h2>
+  <ul>
+    {% for paper in site.data.publications.chapters %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Other papers</h2>
+  <ul>
+    {% for paper in site.data.publications.other %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Reviews</h2>
+  <ul>
+    {% for paper in site.data.publications.reviews %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+  <h2>Popular articles</h2>
+  <ul>
+    {% for paper in site.data.publications.popular %}
+    <li>
+      {{ paper }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
